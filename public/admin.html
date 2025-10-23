@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Admin — Orders</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="/styles.css">
+  <style>
+    body { padding-bottom: 40px; }
+    .admin-controls { display:flex; gap:8px; align-items:center; margin-bottom:10px; }
+    table.orders { width:100%; border-collapse:collapse; margin-top:8px; }
+    table.orders th, table.orders td { border:1px solid #eee; padding:6px; text-align:left; }
+    .order-row { cursor:pointer; }
+    .order-details { margin-top:12px; border:1px solid #ddd; padding:8px; border-radius:6px; }
+    .note { font-size:0.9em; color:#444; }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <header><h1>Admin — Orders</h1></header>
+
+    <div class="admin-controls">
+      <label>Admin token: <input id="admin-token" placeholder="Enter admin token" style="width:320px"/></label>
+      <button id="btn-save-token">Save token</button>
+      <button id="btn-refresh">Refresh</button>
+      <button id="btn-logout">Clear token</button>
+    </div>
+
+    <div id="orders-area">
+      <div id="orders-list">Loading...</div>
+    </div>
+
+    <div id="order-detail" style="display:none;"></div>
+
+    <footer style="margin-top:20px;"><a href="/">Open store</a> — Keep ADMIN_TOKEN secret.</footer>
+  </div>
+
+  <script src="/admin.js"></script>
+</body>
+</html>

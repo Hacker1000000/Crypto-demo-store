@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Crypto Store Demo</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div id="app">
+    <header><h1>Crypto Store (BTC & XMR demo)</h1></header>
+    <section id="auth">
+      <h2>Account</h2>
+      <div id="user-area">
+        <div id="login-form">
+          <input id="email" placeholder="Email" />
+          <input id="password" placeholder="Password" type="password" />
+          <button id="btn-register">Register</button>
+          <button id="btn-login">Login</button>
+        </div>
+        <div id="user-info" style="display:none;">
+          <span id="user-email"></span>
+          <button id="btn-logout">Logout</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="products">
+      <h2>Products</h2>
+      <div id="product-list"></div>
+    </section>
+
+    <section id="cart">
+      <h2>Cart</h2>
+      <div id="cart-items"></div>
+      <div id="cart-total"></div>
+      <div id="checkout">
+        <label><input type="radio" name="pay" value="BTC" checked> BTC (static)</label>
+        <label><input type="radio" name="pay" value="XMR"> XMR (static)</label>
+        <button id="btn-checkout">Checkout</button>
+      </div>
+      <div id="checkout-result"></div>
+    </section>
+
+    <footer><small>Demo only. See README for setup.</small></footer>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
