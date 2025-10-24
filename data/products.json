@@ -1,0 +1,56 @@
+[  {
+    "id": "nova-leather-jacket",
+    "name": "Nova Leather Jacket",
+    "description": "Premium full-grain leather biker jacket with asymmetric zip, quilted shoulders, and a tailored fit.",
+    "price": 1000,
+    "currency": "USD",
+    "category": "Outerwear",
+    "image": "https://placehold.co/600x400?text=Nova+Leather+Jacket",
+    "sku": "NLJ-001",
+    "in_stock": true
+  },
+  {
+    "id": "aveline-silk-slip-dress",
+    "name": "Aveline Silk Slip Dress",
+    "description": "Bias-cut silk slip dress with adjustable straps and a subtle cowl neckline — perfect for day-to-night styling.",
+    "price": 249,
+    "currency": "USD",
+    "category": "Dresses",
+    "image": "https://placehold.co/600x400?text=Aveline+Silk+Slip+Dress",
+    "sku": "ASD-002",
+    "in_stock": true
+  },
+  {
+    "id": "everyday-denim-jacket",
+    "name": "Everyday Denim Jacket",
+    "description": "Classic stonewashed denim jacket with contrast stitching, chest pockets, and a relaxed fit.",
+    "price": 89,
+    "currency": "USD",
+    "category": "Outerwear",
+    "image": "https://placehold.co/600x400?text=Everyday+Denim+Jacket",
+    "sku": "EDJ-003",
+    "in_stock": true
+  },
+  {
+    "id": "caden-canvas-tote",
+    "name": "Caden Canvas Tote",
+    "description": "Durable canvas tote with reinforced handles, inner pocket, and minimalist branding — perfect for everyday carry.",
+    "price": 39,
+    "currency": "USD",
+    "category": "Bags",
+    "image": "https://placehold.co/600x400?text=Caden+Canvas+Tote",
+    "sku": "CCT-004",
+    "in_stock": true
+  },
+  {
+    "id": "orbit-graphic-tee",
+    "name": "Orbit Graphic Tee",
+    "description": "100% organic cotton graphic tee with a soft hand-feel and relaxed silhouette. Screen-printed artwork on front.",
+    "price": 20,
+    "currency": "USD",
+    "category": "Tops",
+    "image": "https://placehold.co/600x400?text=Orbit+Graphic+Tee",
+    "sku": "OGT-005",
+    "in_stock": true
+  }
+]
