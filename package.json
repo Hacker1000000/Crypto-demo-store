@@ -1,16 +1,1 @@
-{
-  "name": "aurora-store",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "^14.0.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "stripe": "^11.0.0"
-  }
-}
+{  "name": "aurora-store",  "version": "0.1.0",  "private": true,  "scripts": {    "dev": "next dev",    "build": "next build",    "start": "next start",    "prisma:generate": "prisma generate",    "prisma:migrate": "prisma migrate dev --name init",    "seed": "ts-node --esm scripts/seed.ts"  },  "dependencies": {    "next": "^14.0.0",    "react": "^18.2.0",    "react-dom": "^18.2.0",    "next-auth": "^4.22.1",    "@prisma/client": "^5.0.0",    "prisma": "^5.0.0"  },  "devDependencies": {    "typescript": "^5.5.0",    "ts-node": "^10.9.1",    "tailwindcss": "^3.5.0",    "postcss": "^8.4.0",    "autoprefixer": "^10.4.0"  }}
